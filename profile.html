@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart | Home Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="brand">Shopping Cart</a>
+                <nav>
+                    <ul id="links">
+                        <li><a href="login.html">Sign In</a></li>
+                        <li><a href="register.html">Sign Up</a></li> 
+                    </ul>
+                    <ul id="user_info">
+                        <li><a href="#" id="user"></a></li>
+                        <li class="shoppingCartIcon">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span class="badge"></span>
+                            <div class="cartProducts">
+                                <div></div>
+                                <a href="cartproducts.html" >View all products</a>
+                            </div>
+                        </li>
+                        <li><a href="#" id="logout">logout</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+       
+    </header>
+
+    <section class="profile">
+        <div class="container">
+                <div class="data">
+                    <h2 id="username"></h2>
+                    <p id="email"></p>
+                    <p id="productsNumber">Number of products added to cart  :<span></span></p>
+                </div>
+         
+        </div>
+    </section>
+    <script src="js/user.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/profile.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
